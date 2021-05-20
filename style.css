@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+input{
+	width: 200px;	
+	height: 56px;
+	border-radius: 8px;
+	outline: none;
+	border: 1px solid;
+	padding-left: 20px;
+	transition: 0.2s ease-in-out;
+}
+
+body{
+	margin-left: 200px;
+    margin-top: 50px;
+}
+
+.class{
+    margin: 40px 0;
+    margin-bottom: 80px;
+}
+
+.class.seven input,
+.class.seven label,
+.class.six input,
+.class.six,
+.class.five i,
+.class.five ,	
+.class.five  input,
+.class.four .one,	
+.class.four .one input,	
+.class.one label,
+.class.one input{
+	border-color: #828282;
+	color: #828282;
+}
+
+
+
+.class.two input:hover,
+.class.one label input:hover,
+.class.one input:hover{
+	border-color: #333333;
+	color: #3333;
+}
+
+.class.one input:focus{
+	border-color: #2962FF;
+	color: #2962FF;
+}
+
+.class.two label{
+	color: #D32F2F;	
+}
+
+
+.class.four .two,	
+.class.four .two input,	
+.class.two input:focus,
+.class.two input{
+	border-color: #D32F2F;
+	color: #D32F2F;
+}
+
+.class.three label{
+	color: #333333;
+}
+
+.class.three input{
+	background: #F2F2F2;
+	border-color: #e0e0e0;
+}
+
+.class.seven .one,
+.class.five .one,
+.class.four .one{
+	float: left;
+	margin-right: 500px;
+}
+
+.class.five input:nth-child(3){
+	position: relative;
+	padding-left: 50px;
+}
+
+.class.five .one i{
+	position: absolute;
+	left: 210px;
+	bottom: -176px;
+}
+
+.class.five .two input{
+	position: relative;
+	padding: 10px;	
+}
+.class.five .two i{
+	position: absolute;
+	right: 270px;
+	bottom: -175px;
+}
+
+.class.seven .one input{
+	height: 40px;
+}
+
+.class.eight input{
+	width: 1031px;
+}
+
+.class.nine textarea{
+	resize: none;
+	padding-top: 30px;
+	padding-left: 10px;
+	border-radius: 8px;
+	outline: none;
+}
